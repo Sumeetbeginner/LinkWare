@@ -1,0 +1,102 @@
+
+.navbarBox{
+    width: 20%;
+    height: 100vh;
+    background-color: var(--dark);
+}
+
+.navbarBox img{
+
+    width: 20%;
+}
+
+.flexTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    padding-top: 9%;
+}
+
+.workerImg{
+    width: 35% !important;
+    display: block;
+    margin: auto;
+    margin-top: 9%;
+    background-color: var(--light);
+    padding :8% 8%;
+    border-radius: 100%;
+}
+
+.menuLast{
+    display: flex;
+    justify-content: space-around;
+    gap: 13%;
+    align-items: center;
+    margin-top: 20%;
+    
+}
+
+.menuLast i{
+    background-color: var(--light);
+    font-size: 20px;
+    padding: 5% ;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.navbarComp h2{
+    width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 3% 0%;
+    /* background-color: var(--material); */
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+.navbarComp h2:hover{
+    background-color: var(--light);
+}
+
+
+.navbarComp h2:first-child{
+    margin-top: 12%;
+    background-color: var(--material);
+}
+
+.flexPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.homePage{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 1.2%;
+}
+
+.workerTasks{
+    width: 58%;
+    height: 95vh;
+    background-color: var(--dark);
+    border-radius: 10px;
+}
+
+.workerData{
+    width: 38%;
+    height: 95vh;
+    background-color: var(--dark);
+    border-radius: 10px;
+}
+
+.homePage button{
+    cursor: pointer;
+    width: 20%;
+}

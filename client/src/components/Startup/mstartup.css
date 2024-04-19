@@ -1,0 +1,63 @@
+
+/* Media Query for Phone */
+@media only screen and (max-width: 868px) {
+
+    .introContainer h1{
+        font-size: 21px;
+        padding: 4% 0%;
+        white-space: nowrap;
+    }
+
+    .illChild{
+        display: block;
+    }
+
+    .illChild img{
+        width: 86%;
+        display: block;
+        margin: auto;
+        margin-top: 12%;
+    }
+
+    .illChild p{
+        font-size: 19px;
+        width: 90%;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .routeBtn{
+        display: flex;
+        margin-top: 15%;
+        justify-content: center;
+        margin-right: 0%;
+        align-items: center;
+        gap: 13%;
+        
+    }
+
+    .routeBtn Button{
+        margin-top: 0%;
+        width: 30%;  
+    }
+
+    .ticker{
+        padding: 3% 0%;
+    }
+
+    .upperFlex{
+        display: flex;
+        background-color: var(--material);
+        justify-content: space-around;
+        align-items: center;
+        gap: 5%;
+    }
+    
+    .upperFlex p{
+        font-size: 25px;
+    } 
+
+
+
+}

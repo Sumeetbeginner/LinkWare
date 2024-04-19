@@ -1,0 +1,172 @@
+
+.flexDes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    margin-top: 1.2%;
+}
+
+.wareHouseDesign{
+    overflow: scroll;
+    width:77%;
+    height: 95vh;
+    background-color: var(--dark);
+    border-radius: 10px;
+    position: relative;
+}
+
+.wareHouseComponents{
+    width: 20%;
+    height: 95vh;
+    background-color: var(--dark);
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.wareHouseComponents button{
+    display: block;
+    font-size: 17px;
+    width: 70%;
+    height: 5.6vh;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: var(--material);
+    color: white;
+    margin: auto;
+    margin-top: 6%;
+    cursor: pointer;
+}
+
+.flexDes img{
+
+    width: 27%;
+    display: block;
+    margin: auto;
+    margin-top: 7%;
+
+}
+
+.aisleBox{
+    width: 20%;
+    height: 20vh;
+    background-color: var(--material);
+}
+
+.aisleBox{
+    position: absolute;
+}
+
+.updateBox{
+    display: block;
+}
+
+.aisleCustom input{
+    width: 80%;
+    height: 5.5vh;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16.4px;
+    background-color: var(--light);
+    color: white;
+}
+
+.wareHouseComponents input{
+    width: 80%;
+    height: 5.5vh;
+    display: block;
+    margin: auto;
+    margin-top: 0%;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: var(--light);
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+}
+
+.aisle{
+    position: absolute;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.room{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#aisleEdit, #roomEdit, #fridgeEdit, #heaterEdit{
+    display: none;
+}
+
+#aisleEdit h2{
+    background-color: var(--material);
+    text-align: center;
+    padding: 2.5% 0%;
+}
+#roomEdit h2{
+    background-color: var(--material);
+    text-align: center;
+    padding: 2.5% 0%;
+}
+#fridgeEdit h2{
+    background-color: var(--material);
+    text-align: center;
+    padding: 2.5% 0%;
+}
+#heaterEdit h2{
+    background-color: var(--material);
+    text-align: center;
+    padding: 2.5% 0%;
+}
+
+.flexDes p{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#shelvesNo, #rackNo, #roomBhai{
+    margin-top: 8%;
+}
+
+.fridge{
+    background-color: var(--material) !important;
+    width: 10%;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+}
+.heater{
+    background-color: rgb(223, 111, 14) !important;
+    width: 10%;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+}

@@ -1,0 +1,104 @@
+.illChild img {
+    width: 30%;
+}
+
+.illChild {
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+    gap: 10%;
+}
+
+.introContainer h1 {
+    text-align: center;
+    margin-top: 0%;
+    font-size: 26px;
+    padding: 0.9% 0%;
+    
+}
+
+.illChild p {
+    font-size: 24px;
+    width: 40%;
+    margin-top: 4%;
+}
+
+.routeBtn {
+    display: flex;
+    justify-content: right;
+    gap: 18%;
+    margin-right: 19%;
+
+}
+
+.routeBtn button {
+    width: 10%;
+    font-size: 16px;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin-top: -10%;
+}
+
+.prevBtn {
+    background-color: var(--lmaterial);
+
+}
+
+.nextBtn {
+    background-color: var(--material);
+}
+
+.ticker span {
+    margin-right: 5%;
+}
+
+.ticker {
+    overflow-x: scroll;
+    padding: 1% 1%;
+    background-color: var(--dark);
+    width: 100%;
+    white-space: nowrap;
+    animation: tickerAnimation 30s linear infinite;
+}
+
+.tickerContainer {
+    background-color: var(--dark);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.stockDown {
+    color: rgb(255, 91, 91);
+}
+
+.stockUp {
+    color: greenyellow;
+}
+
+.upperFlex{
+    display: flex;
+    background-color: var(--material);
+    justify-content: space-around;
+    align-items: center;
+    gap: 50%;
+}
+
+.upperFlex p{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@keyframes tickerAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
